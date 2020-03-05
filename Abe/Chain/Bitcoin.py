@@ -1,4 +1,5 @@
 # Copyright(C) 2014 by Abe developers.
+# Copyright © 2020 by DGY1 unIQue™
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -24,3 +25,4 @@ class Bitcoin(Sha256Chain):
         chain.script_addr_vers = '\x05'
         chain.magic = '\xf9\xbe\xb4\xd9'
         Sha256Chain.__init__(chain, **kwargs)
+# © DGY1
